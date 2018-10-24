@@ -2,6 +2,11 @@ var tanggal = 1
 var bulan = 9
 var tahun = 1900
 
+if (tanggal <1 || tanggal > 31 || tahun <1900 || tahun >2200 || bulan <1 || bulan >12)
+{
+  console.log('invalid date input');
+}
+
 switch (bulan){
   case 1:
     console.log( tanggal + ' Januari ' +tahun  ) 

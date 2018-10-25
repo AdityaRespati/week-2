@@ -6,6 +6,7 @@ if (tanggal <1 || tanggal > 31 || tahun <1900 || tahun >2200 || bulan <1 || bula
 {
   console.log('invalid date input');
 }
+else{
 
 switch (bulan){
   case 1:
@@ -44,4 +45,5 @@ switch (bulan){
   case 12:
     console.log( tanggal + ' Desember ' +tahun  ) 
   break;
+}
 }

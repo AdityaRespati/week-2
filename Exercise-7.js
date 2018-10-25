@@ -1,4 +1,4 @@
-//NOMOR 1
+/*//NOMOR 1
 
 for (var rows=5; rows>=1; rows--){
     console.log('*')
@@ -6,16 +6,38 @@ for (var rows=5; rows>=1; rows--){
 
 //NOMER 2
 //---------------
+var rows2=5
 
-for (var rows2=5; rows2>=1; rows2--){
-    console.log('*****')
+for (var i=0; i<rows2; i++){
+    var bintang=''
+    for (var j=0; j<rows2; j++){
+  bintang=bintang + '*'}
+  console.log (bintang)
 }
 
 //NOMER 3
 //---------------
+var rows2=5
 
-var bintang='*****'
-for (var rows3=1; rows3<=5; rows3++){
-    console.log (bintang.substring (0,rows3))
+for (var i=0; i<=rows2; i++){
+    var bintang=''
+    for (var j=0; j<i; j++){
+  bintang=bintang + '*'}
+  console.log (bintang)
 }
+*/
+//latian
 
+var rows2=5
+
+for (var i=0; i<rows2; i++){
+    var bintang=''
+    for (var j=0; j<rows2; j++){
+        if (j===0 || j===rows2-1 || i===0 ||i === rows2-1){
+            bintang+= '*'
+        }
+        else {
+            bintang+= ' '
+        } }
+  console.log (bintang)
+}

@@ -52,15 +52,15 @@ NOMER 3
 
 Store "Count" with 0
 
-While "Count" <21
-ADD "count" by 1
+While "Count" is less than 21
+	ADD "count" by 1
 
 DO "Laundry"
 
 *ALGORITMA*
 
-1.Nilai "count" = 0
-2.Selama "count" < 21, tambah "count" dengan 1
+1.Simpan "count" dengan nilai 0
+2.Selama "count" kurang dari 21, tambah "count" dengan 1
 3.Lakukan "Laundry"
 
 --------------
@@ -73,20 +73,20 @@ Store "count" with 0
 Store "kuku" with any value
 
 While "Count" <41
-Add "count" by 1
-Input "kuku"
-If "kuku" = 'panjang'
-	Do "hukum"
-Else 
-	Do "puji"
+	Add "count" by 1
+	Input "kuku"
+	If "kuku" = 'panjang'
+		Do "hukum"
+	Else 
+		Do "puji"
 
 *ALGORITMA*
 
 1.SImpan "count" dengan nilai 0
 2.Simpan "kuku" dengan nilai apapun
-3.Selama "count"<41, tambah "count" dengan 1
+3.Selama "count" kurang dari 41, tambah "count" dengan 1
 4.masukan nilai "kuku"
-5.Bila "kuku" = 'panjang', hukum murid. bila tidak puji murid
+5.Bila "kuku" sama dengan 'panjang', hukum murid. bila tidak puji murid
 
 
 
